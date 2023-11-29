@@ -64,3 +64,188 @@ body{
     background: url(images/meteor1.png);
     background-size: 100% ;
 }
+button{
+    width: 70px;
+    height: 20px;
+}
+/* home html*/
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'open sans', sans-serif;
+}
+
+.wrapper{
+    width: 1150px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color:#364f6b ;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+
+}
+
+nav ul {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    overflow:  hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #3A98B9;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'comic sans ms';
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.gambar{
+    width: 40%;
+    height: 40%;
+    margin-top: 50px;
+    margin-left: -200px;
+}
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.deskripsi{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+.promosi{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-family:'comic sans ms' ;
+    font-weight: 800;
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+a.tbl-hitam{
+    background:#161A30 ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-hitam:hover{
+    background:#31304D ;
+    text-decoration: none;
+}
+a.tbl-hijau{
+    background:#128C7E ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-hijau:hover{
+    background:#075E54 ;
+    text-decoration: none;
+}
+
+a.tbl-ungu{
+    background: #7232bd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-ungu:hover{
+    background: 	#c32aa3;
+
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
+    font-family: 'comic sans ms';
+} 
+footer {
+    margin-top: 296.5px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-left: -385px;
+    width: 1880px;
+    align-items: center;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-info h3 {
+    margin-bottom: 10px;
+  }
+  .copyright{
+    margin-left: 550px;
+    margin-top: 100px;
+  }
+  .medsos{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+  }
